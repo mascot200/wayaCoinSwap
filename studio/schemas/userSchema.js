@@ -25,9 +25,8 @@ export const userSchema = {
             of:[{
                 type: 'reference',
                 to: [{ type: 'transactions'}],
-            }]
+            },
+        ],
         },
-
-      
-    ]
+    ],
 }

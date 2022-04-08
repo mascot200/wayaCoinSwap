@@ -7,5 +7,9 @@ contract Transactions {
     function publishTransaction(address payable receiver, uint amount, string memory message, string memory keyword) public {
         emit Transfer(msg.sender, receiver, amount, message, block.timestamp, keyword);
     }
+
+    function getBalance() public view returns(uint256) {
+            return msg.sender.balance;
+    }
     
 }

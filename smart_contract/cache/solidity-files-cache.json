@@ -74,8 +74,8 @@
       ]
     },
     "/home/ub/projects/web3_projects/wayaCoinSwap/smart_contract/contracts/Transactions.sol": {
-      "lastModificationDate": 1649007677667,
-      "contentHash": "ab6505bb82c6013d24930a7d2fe91700",
+      "lastModificationDate": 1649436166991,
+      "contentHash": "aa0e09b75c333f5265e53bf9220b34c6",
       "sourceName": "contracts/Transactions.sol",
       "solcConfig": {
         "version": "0.8.0",
